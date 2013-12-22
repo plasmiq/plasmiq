@@ -1,0 +1,19 @@
+.pq-content:before,
+.pq-content:after {
+    content:"";
+    display:table;
+}
+.pq-content:after {
+    clear:both;
+}
+
+.pq-content {
+  a.pq.pq-button-inline {
+    border-bottom: 0px;
+    color: whote;
+    &:hover, &:visited {
+      color: white;
+    }
+  }
+
+}

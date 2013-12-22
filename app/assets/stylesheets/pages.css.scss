@@ -1,0 +1,58 @@
+article {
+  width: 561px;
+  float: left;
+
+  img {
+    display: block;
+  }
+}
+
+aside {
+  float: right;
+  width: 329px;
+  margin-left: 50px;
+  background-color: #0F0F0F;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 6em;
+  line-height: 0px;
+}
+
+.pq-content {
+
+  .intro {
+    padding-left: 1.8em;
+    position: relative;
+    color: #217473;
+    font-style: italic;
+    font-size: 1.2em;
+    margin: 27px 0px;
+
+    .quote {
+      font-family: Georgia;
+      font-size: 3em;
+      position: absolute;
+      left: 0em;
+      top: 0.2em;
+    }
+
+  }
+
+  .project {
+    width: 250px;
+    float: left;
+    margin-right: 30px;
+    margin-top: -27px;
+
+    h2 {
+      color: #50AB8D;
+      text-transform: capitalize;
+    }
+
+    .summary {
+      font-style: italic;
+      color: #216464;
+    }
+  }
+
+}

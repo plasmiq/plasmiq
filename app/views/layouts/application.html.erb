@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html class="pq-freedom">
+<head>
+  <title>Plasmiq</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application" %>
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <div>
+    <menu class="pq-menu">
+      <div class="left">
+        <h1><a href="/">plasmiq</a></h1>
+      </div>
+      <div class="center">
+        <a href="/">about</a>
+        <a href="/projects">projects</a>
+        <a href="/changelog">changelog</a>
+      </div>
+      <div class="right">
+        <nav class="pq pq-nav-dropdown">
+          <a href="">menu</a>
+          <ul>
+            <li>
+              <a href="http://flowformer.com/">flowformer<i class="fa fa-angle-right"></i></a>
+            </li>
+            <li>
+              <a href="http://timezoneslider.com/">timezoneslider<i class="fa fa-angle-right"></i></a>
+            </li>
+            <li>
+              <a href="http://plasmiq.com/">plasmiq<i class="fa fa-angle-right"></i></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </menu>
+    <div class="pq-content">
+      <%= yield %>
+    </div>
+    <footer class="pq-footer">
+      <div class="right">
+        <a href="http://plasmiq.com/">Powered by Plasmiq</a>
+      </div>
+    </footer>
+  </div>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="http://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+  </script>
+</body>
+</html>
