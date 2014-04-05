@@ -1,0 +1,25 @@
+// Place all the styles related to the goodbye controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+html, body {
+  height: 100%;
+  min-height: 100%;
+  margin: 0px;
+}
+
+body {
+
+}
+
+#goodbye {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  font-family: Lato;
+  font-size: 5em;
+  font-weight: 400;
+  vertical-align: middle;
+  margin: 0px;
+  padding: 0px;
+}
